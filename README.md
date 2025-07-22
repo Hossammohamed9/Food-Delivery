@@ -26,7 +26,9 @@
 
 # Build instructions
 
-- If you're running the app on a real device, head to build.gradle (App) and change the base_url buildConfig field from http://10.0.2.2:8080/ to http://localhost:8080/ and vice versa
+- You need to set up a local server with the required endpoints and WebSocket and run it
+- If you're running the app on a real device, head to build.gradle (App) and change the BASE_URL buildConfig field from http://10.0.2.2:8080/ to http://localhost:8080/ and vice versa
+- If you're using a real backend server you also need to change the BASE_URL field
 - This project is built with AGP 8.9.1 and Kotlin 2.0.21
 
 # Architectural Decisions
