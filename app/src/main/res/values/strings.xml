@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <string name="error_request_timeout">The request timed out, couldn\'t fetch latest data</string>
+    <string name="error_too_many_requests">Oops, it seems like your quota is exceeded, couldn\'t fetch latest data</string>
+    <string name="error_no_internet">Couldn\'t connect to server, please check your internet connection.</string>
+    <string name="error_unknown">Something went wrong, couldn\'t fetch latest data. Please try again later.</string>
+    <string name="database_error">Database operation error</string>
+    <string name="parsing_error">Json parsing error, couldn\'t fetch latest data</string>
+</resources>
