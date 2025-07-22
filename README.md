@@ -35,7 +35,7 @@ I went with a Layered Architecture for high scalability that can support impleme
 
 # Trade-offs
 - Increased Boilerplate: More classes and interfaces are required even for simple features, which can feel verbose for small projects.
-- Features are coupled with the data layer
+- Features can't be easily reused in other projects
 
 I was thinking about a feature-based architecture where each feature is isolated with its own layers so they can be reused in any other project but decided not to go with that since the data layer is the one that would be mostly reused in this kind of apps
 
